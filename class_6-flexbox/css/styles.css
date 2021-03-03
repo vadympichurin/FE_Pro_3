@@ -1,0 +1,61 @@
+@import './header.css';
+
+.wrapper {
+    /* width: 300px; */
+    /* padding: 10px; */
+    /* padding: 10px 0; */
+    /* height: 100vh; */
+    /* height: 100px;
+    background-color: tomato;
+    display: flex; */
+
+    /* Направление основной оси */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* Перенос флекс-элементов на новую строку */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* Выравнивание флекс-элементов по основной оси */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* Выравнивание флекс-элементов по вспомогательной оси */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+}
+
+.inner_box {
+    /* flex-grow: 1; */
+    /* width: 50px;
+    background-color: green;
+    border: 2px solid black;
+    color: #fff; */
+}
+
+.item6 {
+    /* order: 1; */
+    /* flex-grow: 2; */
+}
+
+.item7 {
+    /* order: 1; */
+    /* flex-grow: 3; */
+    /* align-self: flex-start; */
+}
+
+
