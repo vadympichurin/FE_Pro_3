@@ -1,0 +1,49 @@
+.header {
+    width: 1110px;
+    margin: 0 auto 105px auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: rgb(81, 81, 81);
+  text-transform: uppercase;
+}
+
+.logo::first-letter {
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.logo_link {
+}
+
+.menu {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    width: 467px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list_item {
+    text-transform: uppercase;
+    color: rgb(81, 81, 81);
+}
+
+.menu_list_item_link:hover {
+    color: #1abc9c;
+}
+
+.menu_list_item_link {
+}
