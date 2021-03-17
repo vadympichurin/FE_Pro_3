@@ -1,0 +1,62 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 3;
+}
+
+.header_wrapper {
+    width: 1110px;
+    height: 91px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.logo::first-letter {
+    color: rgb(26, 188, 156);
+    font-weight: 900;
+}
+
+.logo_link {
+    color: rgb(81, 81, 81);
+}
+
+.menu {
+    width: 470px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list_item {
+}
+
+.list_item_link {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+}
+
+.list_item_link:hover{
+    color: rgb(26, 188, 156);
+}
+
+.main {
+    padding-top: 91px;
+}
