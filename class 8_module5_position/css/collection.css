@@ -1,0 +1,71 @@
+.collection {
+  background-color: #e9f0fd;
+}
+
+.collection_wrapper {
+  width: 1110px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.collection_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: rgb(81, 81, 81);
+  text-transform: uppercase;
+  margin-bottom: 82px;
+}
+
+.collection_title::after {
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 32px auto 0 auto;
+}
+
+.collection__card_wrapper {
+}
+
+.collection__card {
+    width: 255px;
+    height: 322px;
+    font-size: 0;
+}
+
+.card_image {
+    width: 255px;
+    height: 282px;
+}
+
+.card__title_wrapper {
+    display: flex;
+}
+
+.card__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  background-color: #323232;
+  line-height: 40px;
+  padding-left: 14px;
+  text-transform: uppercase;
+}
+
+.card__price {
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: #fff;
+  width: 55px;
+  height: 40px;
+  background-color: #8c8c8c;
+  line-height: 40px;
+}

@@ -9,3 +9,5 @@
 /* font-family: 'Open Sans', sans-serif; */
 
 @import './header.css';
+@import './greeting.css';
+@import './collection.css';
