@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="#" method="GET">
+      <label for="city_id">City Name</label>
+      <input
+        type="text"
+        name="city"
+        id="city_id"
+        class="city"
+        placeholder="Type your city name"
+        required
+      />
+      <input type="submit" value="Відправити форму" />
+    </form>
+
+    <br />
+    <br />
+
+    <form action="#">
+      <label for="user_name">User Name</label>
+      <input
+        type="text"
+        name="userName"
+        id="user_name"
+        placeholder="Enter your name"
+        autofocus
+      />
+      <br />
+      <br />
+
+      <label for="user_email">User email</label>
+      <input
+        type="email"
+        name="userEmail"
+        id="user_email"
+        placeholder="Enter your email"
+      />
+      <br />
+      <input type="submit" value="Зареєструватися" />
+    </form>
+
+    <br />
+    <br />
+    <br />
+
+    <h2>INPUT</h2>
+
+    <form action="#">
+      <input type="button" value="Click me!" />
+      <br />
+      <br />
+      <label for="check_red">Red</label>
+      <input type="checkbox" id="check_red" name="color" value="red" />
+      <label for="check_green">Green</label>
+      <input type="checkbox" id="check_green" name="color" value="green" />
+      <label for="check_blue">Blue</label>
+      <input type="checkbox" id="check_blue" name="color" value="blue" />
+      <label for="check_grey">Grey</label>
+      <input type="checkbox" id="check_grey" name="color" value="grey" />
+
+      <br />
+      <br />
+      <label for="file">Upload file</label>
+      <input type="file" name="loadFile" id="file" />
+      <br />
+      <br />
+      <label for="image_id">Type image</label>
+      <input
+        type="image"
+        name="image"
+        id="image_id"
+        src="../class 8_module5_position/images/category-1@1X.jpeg"
+      />
+
+      <br />
+      <br />
+      <label for="pass_id">Type password</label>
+      <input
+        type="password"
+        name="pass"
+        id="pass_id"
+        placeholder="Enter your password"
+      />
+      <br />
+      <br />
+
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <br />
+      <br />
+
+      <label for="color_id">Type color</label>
+      <input type="color" name="colorPicker" id="color_id" />
+      <br />
+      <br />
+
+      <label for="date_id">Type Date</label>
+      <input type="date" name="date" id="date_id" />
+      <br />
+      <br />
+
+      <label for="email">Type email</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <br />
+
+      <label for="search">Type search</label>
+      <input type="search" name="search" id="search" />
+      <br />
+      <br />
+
+      <label for="number">Type number</label>
+      <input type="number" name="number" id="number" />
+      <br />
+      <br />
+
+      <label for="range">Type range</label>
+      <input type="range" name="range" id="range" min="0" max="20" step="5" />
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <br />
+    <br />
+    <br />
+    <h2>Text area</h2>
+
+    <form action="#">
+      <textarea
+        name="message"
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Enter your message"
+      ></textarea>
+      <input type="submit" name="" id="" />
+    </form>
+  </body>
+</html>
