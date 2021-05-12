@@ -1,0 +1,60 @@
+@import url('./variables.css');
+
+.advantages {
+    width: 100%;
+    background-color: var(--white-color);
+    font-family: var(--montserrat);
+}
+
+.advantages > .wrapper {
+    width: 1170px;
+    padding: 78px 26px 108px 26px;
+    margin: 0 auto;
+}
+
+.advantages .list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages .item {
+    width: 322px;
+    text-align: center;
+}
+
+.advantages .icon_wrapper {
+    width: 108px;
+    height: 108px;
+    border: 2px solid var(--grey-color);
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--orange-color);
+    margin: 0 auto 50px auto;
+}
+
+.advantages .icon_wrapper:hover {
+    color: var(--white-color);
+    border: 2px solid var(--orange-color);
+    background-color: var(--orange-color);
+}
+
+.advantages .icon {}
+
+.advantages .title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--black-text-color);
+    margin-bottom: 60px;
+}
+
+.advantages .text {
+    font-family: var(--lora);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--grey-color);
+}

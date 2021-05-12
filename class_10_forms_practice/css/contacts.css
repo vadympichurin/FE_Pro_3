@@ -1,0 +1,105 @@
+@import url('./variables.css');
+
+.contacts {
+    font-family: 'Lora', serif;
+    background-color: var(--white-color);
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78px;
+    padding-bottom: 78px;
+}
+
+.contacts-form {
+    width: 771px;
+}
+
+.contacts-form .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.contacts-form .input {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--black-text-color);
+    background-color: var(--input-bg-color);
+    border: none;
+    padding: 16px 18px;
+    border-radius: 6px;
+}
+
+.contacts-form .input::placeholder {
+    color: var(--grey-color);
+}
+
+.contacts-form .user-name {
+    width: 371px;
+}
+
+.contacts-form .user-email {
+    width: 371px;
+}
+
+.contacts-form .subject {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.contacts-form .message {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.contacts-form .submit {
+    width: 100%;
+    padding: 16px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--orange-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.contacts-form .submit:hover {
+    background-color: var(--grey-color);
+    color: var(--orange-color);
+}
+
+.contacts .address {
+    width: 180px;
+}
+
+.address .list {}
+
+.address .item {
+    margin-bottom: 53px;
+}
+
+.address .title {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--black-text-color);
+    font-style: normal;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.address .text {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--grey-color);
+    font-style: normal;
+}
+

@@ -1,0 +1,10 @@
+:root {
+    --black-text-color: #333333;
+    --grey-color: rgb(128, 128, 128);
+    --light-grey: #fbfbfb;
+    --orange-color: #fa694e;
+    --input-bg-color: #f1f4f7;
+    --white-color: #fff;
+    --montserrat: 'Montserrat', sans-serif;
+    --lora: 'Lora', serif;
+}

@@ -1,0 +1,66 @@
+@import url('./variables.css');
+
+.stories {
+    width: 100%;
+    background-color: var(--light-grey);
+    font-family: var(--montserrat);
+}
+
+.stories > .wrapper {
+    width: 1170px;
+    display: block;
+    text-align: center;
+}
+
+.stories .title {
+    font-size: 25px;
+    color: var(--black-text-color);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.stories .text {
+    font-family: var(--lora);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--grey-color);
+    margin-bottom: 90px;
+}
+
+.stories .content {
+    display: flex;
+}
+
+.stories .content .img {
+    width: 570px;
+    height: 350px;
+    display: block;
+}
+
+.stories .project {
+    text-align: left;
+    padding: 60px 42px 37px 32px;
+    border-right: 1px solid var(--grey-color);
+    border-top: 1px solid var(--grey-color);
+    border-bottom: 1px solid var(--grey-color);
+}
+
+.stories .project .title {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.stories .project .text {
+    margin-bottom: 46px;
+}
+
+.stories .project .btn {
+    padding: 22px 52px;
+    background-color: var(--orange-color);
+    font-size: 15px;
+    color: var(--white-color);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+

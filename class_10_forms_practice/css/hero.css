@@ -1,0 +1,46 @@
+@import url('./variables.css');
+
+.hero {
+    background-color: var(--black-text-color);
+    font-family: var(--montserrat);
+    padding-bottom: 300px;
+    padding-top: 160px;
+}
+
+.hero .wrapper {
+    display: block;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.hero .title {
+    font-size: 75px;
+    font-weight: 600;
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-bottom: 79px;
+}
+
+.hero .text {
+    font-size: 20px;
+    font-family: var(--lora);
+    font-weight: 400;
+    color: var(--white-color);
+    padding: 0 305px;
+    margin-bottom: 61px;
+}
+
+.hero .btn {
+    font-size: 20px;
+    color: var(--white-color);
+    padding: 20px 66px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: var(--orange-color);
+    cursor: pointer;
+}
+
+
+
