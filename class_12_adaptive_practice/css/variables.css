@@ -1,0 +1,14 @@
+:root {
+    --white: #fff;
+    --yellow: rgb(252, 227, 138);
+    --peach: rgb(243, 129, 129);
+    --black: rgb(51, 51, 51);
+    --grey: rgb(153, 153, 153);
+    --grey-border: #f4f3f3;
+    --green: #95e1d3;
+    --red-gradient: rgba(243, 129, 129, 0.8);
+    --yellow-gradient: rgba(252, 227, 138, 0.8);
+    --montserrat: 'Montserrat', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --kaushan: 'Kaushan Script', cursive;
+}
