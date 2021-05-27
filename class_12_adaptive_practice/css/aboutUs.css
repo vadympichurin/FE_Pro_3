@@ -1,13 +1,13 @@
 @import url('./variables.css');
 
-.aboutus {
+.section {
     padding: 35px 1rem 0 1rem;
     background-color: var(--white);
     text-align: center;
     margin: 0 auto;
 }
 
-.aboutus > .subtitle {
+.subtitle {
     font-size: 18px;
     font-family: var(--kaushan);
     font-weight: 400;
@@ -15,7 +15,7 @@
     margin-bottom: 15px;
 }
 
-.aboutus > .title {
+.title {
     font-size: 24px;
     font-family: var(--montserrat);
     font-weight: 700;
@@ -24,7 +24,7 @@
     text-transform: uppercase;
 }
 
-.aboutus > .title::after {
+.title::after {
     content: '';
     display: block;
     width: 60px;
@@ -70,21 +70,21 @@
 }
 
 @media screen and (min-width: 768px) {
-    .aboutus {
+    .section {
         padding: 50px 2rem 0 2rem;
     }
     
-    .aboutus > .subtitle {
+    .subtitle {
         font-size: 24px;
         margin-bottom: 23px;
     }
     
-    .aboutus > .title {
+    .title {
         font-size: 30px;
         margin-bottom: 47px;
     }
     
-    .aboutus > .title::after {
+    .title::after {
         margin-top: 40px;
     }
     
@@ -113,7 +113,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .aboutus {
+    .section {
         padding: 50px 28px 0 28px;
     }
     
@@ -123,6 +123,8 @@
     
     .aboutus > .content_wrapper {
         display: flex;
+        max-width: 1146px;
+        margin: 0 auto;
     }
     
     .content_wrapper .image {
@@ -137,7 +139,7 @@
         width: 573px;
         border-left: none;
         border-top: 2px solid var(--grey-border);
-        margin: 0 auto;
+        margin: 0;
     }
     
     .content_wrapper .text {
