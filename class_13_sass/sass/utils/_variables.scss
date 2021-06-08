@@ -1,0 +1,21 @@
+$kaushan: 'Kaushan Script', cursive;
+$roboto: 'Roboto', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+
+$colors: (
+    'white': #fff,
+    'yellow': rgb(252, 227, 138),
+    'peach': rgb(243, 129, 129),
+    'black': rgb(51, 51, 51),
+    'grey': rgb(153, 153, 153),
+    'green': #95e1d3,
+
+    'grey-border': #f4f3f3,
+    
+    'red-gradient': rgba(243, 129, 129, 0.8),
+    'yellow-gradient': rgba(252, 227, 138, 0.8),
+);
+
+@function getColor($key){
+    @return map-get($colors, $key);
+}
